@@ -1,5 +1,18 @@
 **GlobalPartners**
 
+**Prerequisites**
+AWS CLI installed
+configure the AWS CLI
+  - run the command: $ aws configure 
+  - Pass your Access key ID, Secret key id, default region
+
+Terraform installed
+Run the following command to excuite the terraform script 
+$ terraform init
+$ terraform plan
+$ terraform apply 
+
+
 Data Ingestion process using AWS Lambda to pull weather data from the Open-Meteo API and store it in an S3 bucket
   - Create two **S3** buckets one for raw data nd one for cleaned data.
   - Create a **SNS Topic** and **subscription** for sending alerts if data fetch fails.
