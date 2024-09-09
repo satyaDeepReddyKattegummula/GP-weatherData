@@ -7,10 +7,10 @@ configure the AWS CLI
   - Pass your Access key ID, Secret key id, default region
 
 Terraform installed
-Run the following command to excuite the terraform script 
-$ terraform init
-$ terraform plan
-$ terraform apply 
+Run the following command to excuite the terraform script
+* `$ terraform init`
+* `$ terraform plan`
+* `$ terraform apply`
 
 
 Data Ingestion process using AWS Lambda to pull weather data from the Open-Meteo API and store it in an S3 bucket
