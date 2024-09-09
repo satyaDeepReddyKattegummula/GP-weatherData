@@ -128,9 +128,9 @@ module "eventbridge" {
 
   schedules = {
     lambda-cron = {
-      description         = "Trigger the Lambda every 15 minutes"
-      schedule_expression = "cron(0/5 * * * ? *)"
-      timezone            = "Europe/London"
+      description         = "Trigger the Lambda everyday at 5 AM"
+      schedule_expression = "cron(0 11 * * ? *)"
+      timezone            = "America/Chicago"
       arn                 = aws_lambda_function.weather_lambda_function.arn
       input               = jsonencode({ "job" : "cron-by-rate" })
     }
