@@ -1,6 +1,5 @@
-# GP-WeatherData
-GlobalPartners
-**...............................................**
+**GlobalPartners**
+
 Data Ingestion process using AWS Lambda to pull weather data from the Open-Meteo API and store it in an S3 bucket
   - Create two **S3** buckets one for raw data nd one for cleaned data.
   - Create a **SNS Topic** and **subscription** for sending alerts if data fetch fails.
