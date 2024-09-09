@@ -46,7 +46,7 @@ Integrating with SnowFlake and DBT.
 - Uning DBT to transform the raw data stored in Snowflake into meaningful insights. dbt operates on top of Snowflake and helps in enabling version-controlled, SQL-based transformations.
 
 Optimizing data flow from S3 to Snowflake
-- Dynamic Scaling: Adjusting the Snowflake’s virtual warehouses for handling varying loads, improving performance and cost-efficiency during heavy traffic / peak ingestion periods
+- Dynamic Scaling: Adjusting the Snowflake’s virtual warehouses for handling varying loads, improving performance and cost-efficiency during heavy traffic / peak ingestion periods.
 - Compressing the files and partition data logically based on time intervals or other attributes to to reduce storage costs and speed up data loads.
 - Processing the data in batches, Optimize for large datasets by batching loads using the COPY INTO command. This approach reduces load frequency and maximizes throughput.
 - Automating the data loading process from S3 into Snowflake in near real-time using **Snowpipe**, eliminating manual intervention and ensuring data availability as soon as it's ingested.
@@ -56,4 +56,3 @@ Data Access and Exposure
 - Masking certain rows of the data or Row level security helps in limiting the access to certain columns or rows for specific users.
 - Choosing the right size for the warehouse based on the workload helps in saving the cloud billing.
 - Auto-suspending for virtual warehouses to automatically shut down during inactivity, minimizing costs, and using auto-resume to restart when new queries arrive.
-- 
