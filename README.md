@@ -1,4 +1,4 @@
-**GlobalPartners**
+
 
 **Prerequisites**
 AWS CLI installed
